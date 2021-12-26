@@ -1,0 +1,44 @@
+body {background-color: aliceblue;}
+#pato {
+    background-image: url('/img/0.gif'), url('/img/1.gif'), url('/img/2.gif'), url('/img/3.gif'), url('/img/4.gif'), url('/img/5.gif'), url('/img/6.gif'), 
+    url('/img/7.gif'), url('/img/8.gif'), url('/img/9.gif'), url('/img/10.gif'), url('/img/11.gif'), url('/img/12.gif'), url('/img/13.gif'), url('/img/14.gif'),
+    url('/img/15.gif'), url('/img/16.gif'), url('/img/17.gif'), url('/img/18.gif'), url('/img/19.gif'), url('/img/20.gif'), url('/img/21.gif'), url('/img/22.gif'),
+    url('/img/23.gif'), url('/img/24.gif'), url('/img/25.gif'), url('/img/26.gif'), url('/img/27.gif'), url('/img/28.gif'), url('/img/29.gif'), url('/img/30.gif'), 
+    url('/img/31.gif'), url('/img/32.gif'), url('/img/33.gif'), url('/img/34.gif'), url('/img/35.gif'), url('/img/36.gif'), url('/img/37.gif'), url('/img/38.gif'), 
+    url('/img/39.gif'), url('/img/40.gif'), url('/img/41.gif'), url('/img/42.gif'), url('/img/43.gif'), url('/img/44.gif'), url('/img/45.gif'), url('/img/46.gif'), 
+    url('/img/47.gif'), url('/img/48.gif'), url('/img/49.gif'), 
+    ;
+
+    height: 100%;
+    left: 0;
+    position:relative;
+    top: 0;
+    width: 100%;
+    z-index:1;
+    -webkit-animation: rotate 1000s slidein;
+    -moz-animation: rotate 1000s slidein;
+    -ms-animation: rotate 1000s slidein;
+    animation: rotate 1000s slidein;
+    -webkit-transform: translate3d(0,0,0);
+    -moz-transform: translate3d(0,0,0);
+    -ms-transform: translate3d(0,0,0);
+    -o-transform: translate3d(0,0,0);
+    transform: translate3d(0,0,0);
+}
+@keyframes rotate {
+  0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+  100% {background-position: 50000px 50000px, 10000px 20000px, -10000px 15000px;}          
+}
+@-moz-keyframes rotate {
+  0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+  100% {background-position: 50000px 50000px, 10000px 20000px, -10000px 15000px;}          
+}
+@-webkit-keyframes rotate {
+  0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+  100% {background-position: 50000px 50000px, 10000px 20000px, -10000px 15000px;}          
+}
+@-ms-keyframes rotate {
+  0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+  100% {background-position: 50000px 50000px, 10000px 20000px, -10000px 15000px;}          
+}   
+   
